@@ -20,10 +20,6 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-main {
-  position: relative;
-}
-
 section {
   margin: 0 auto;
   width: 144rem;

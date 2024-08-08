@@ -1,10 +1,4 @@
-$color-primary: #2DA884
-$color-secondary: #232A42
-$color-tertiary: #525252
-
-$shadow-primary: 1.4rem 1.45rem 1.5rem 0.5rem rgba(0, 0, 0, 0.05)
-
-$font-primary: 'Montserrat', sans-serif
+$font-primary: 'Muli', sans-serif
 
 @mixin maxmedia($px)
   $em: calc($px / 16) * 1em
@@ -28,42 +22,3 @@ html
   font-size: 62.5% // 10px/16px = 62.5% -> 1rem = 10px
   @include maxmedia(1200)
     font-size: 50%
-
-body
-  font-family: $font-primary
-
-
-
-section
-  margin: 0 auto
-  width: 144rem
-
-figure > img
-  width: 100%
-  height: 100%
-  object-fit: cover
-  border-radius: 1.6rem
-
-.mb-small
-  margin-bottom: 2.4rem
-
-.mb-xs
-  margin-bottom: 1.6rem
-
-.mb-large
-  margin-bottom: 8rem
-
-.text-box
-    display: flex
-    flex-direction: column
-    gap: 2.4rem
-    justify-content: center
-    align-self: center
-
-    min-width: 73rem
-    height: 14.4rem
-
-    & > .heading-3
-      display: flex
-      justify-content: center
-      gap: 2rem
